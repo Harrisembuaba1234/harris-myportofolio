@@ -4,6 +4,12 @@ const projects = [
     title: "Patient Queue App",
     images: [
       "/assets/projects/eklinik.jpg",
+<<<<<<< HEAD
+=======
+      "/assets/projects/PosterB4 Green Sense.png",
+      "/assets/projects/sitomaa.png",
+      "/assets/projects/timetrack.png",
+>>>>>>> 216fdea92fe5d500fda67e7a28623aae6754999e
     ],
     url: "https://github.com/username/attendance-app",
     description:
@@ -13,7 +19,15 @@ const projects = [
     id: 2,
     title: "Tomato Ripeness Detector",
     images: [
+<<<<<<< HEAD
       "/assets/projects/TomatAIAPP.png",
+=======
+      "/assets/projects/ecraft.jpg",
+      "/assets/projects/eklinik.jpg",
+      "/assets/projects/PosterB4 Green Sense.png",
+      "/assets/projects/sitomaa.png",
+      "/assets/projects/timetrack.png",
+>>>>>>> 216fdea92fe5d500fda67e7a28623aae6754999e
     ],
     url: "https://github.com/username/tomato-app",
     description:
@@ -23,7 +37,15 @@ const projects = [
     id: 3,
     title: "Time Tracking App",
     images: [
+<<<<<<< HEAD
       "/assets/projects/TrackerTimeApp.png",
+=======
+      "/assets/projects/ecraft.jpg",
+      "/assets/projects/eklinik.jpg",
+      "/assets/projects/PosterB4 Green Sense.png",
+      "/assets/projects/sitomaa.png",
+      "/assets/projects/timetrack.png",
+>>>>>>> 216fdea92fe5d500fda67e7a28623aae6754999e
     ],
     url: "https://github.com/username/tomato-app",
     description:
@@ -34,6 +56,13 @@ const projects = [
     title: "Gift App",
     images: [
       "/assets/projects/ecraft.jpg",
+<<<<<<< HEAD
+=======
+      "/assets/projects/eklinik.jpg",
+      "/assets/projects/PosterB4 Green Sense.png",
+      "/assets/projects/sitomaa.png",
+      "/assets/projects/timetrack.png",
+>>>>>>> 216fdea92fe5d500fda67e7a28623aae6754999e
     ],
     url: "https://github.com/username/tomato-app",
     description:
@@ -44,6 +73,13 @@ const projects = [
     title: "Apotek Online",
     images: [
       "/assets/projects/ecraft.jpg",
+<<<<<<< HEAD
+=======
+      "/assets/projects/eklinik.jpg",
+      "/assets/projects/PosterB4 Green Sense.png",
+      "/assets/projects/sitomaa.png",
+      "/assets/projects/timetrack.png",
+>>>>>>> 216fdea92fe5d500fda67e7a28623aae6754999e
     ],
     url: "https://github.com/username/tomato-app",
     description:
@@ -54,6 +90,13 @@ const projects = [
     title: "Aset Management",
     images: [
       "/assets/projects/ecraft.jpg",
+<<<<<<< HEAD
+=======
+      "/assets/projects/eklinik.jpg",
+      "/assets/projects/PosterB4 Green Sense.png",
+      "/assets/projects/sitomaa.png",
+      "/assets/projects/timetrack.png",
+>>>>>>> 216fdea92fe5d500fda67e7a28623aae6754999e
     ],
     url: "https://github.com/usernamee/tomato-app",
     description:
