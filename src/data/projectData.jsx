@@ -14,7 +14,6 @@ const projects = [
     title: "Tomato Ripeness Detector",
     images: [
       "/assets/projects/TomatAIAPP.png",
-
     ],
     url: "https://github.com/username/tomato-app",
     description:
