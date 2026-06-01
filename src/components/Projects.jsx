@@ -37,11 +37,13 @@ const Projects = () => {
             >
               {images.map((img, idx) => (
                 <SwiperSlide key={idx}>
-                  <img
-                    src={img}
-                    alt={`${title} screen ${idx + 1}`}
-                    className="w-full h-64 object-cover rounded-lg"
-                  />
+                  <div className="w-full h-64 rounded-lg bg-transparent flex items-center justify-center overflow-hidden">
+                    <img
+                      src={img}
+                      alt={`${title} screen ${idx + 1}`}
+                      className="w-full h-full object-contain"
+                    />
+                  </div>
                 </SwiperSlide>
               ))}
             </Swiper>

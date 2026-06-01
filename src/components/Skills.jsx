@@ -11,6 +11,18 @@ const Skills = () => {
     'Bahasa': ['Indonesia (native)', 'English (high intermediate)', 'Arabic (passive)']
   };
 
+  const skillsEntries = Object.entries(skillsData);
+  const skillsItems =
+    skillsEntries.length % 3 === 0
+      ? skillsEntries
+      : [
+          ...skillsEntries,
+          ...Array.from({ length: 3 - (skillsEntries.length % 3) }, () => [
+            '__placeholder__',
+            [],
+          ]),
+        ];
+
   return (
     <section
       id="skills"
@@ -24,22 +36,30 @@ const Skills = () => {
 
       <div className="px-6 max-w-6xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {Object.entries(skillsData).map(([category, items], idx) => (
+          {skillsItems.map(([category, items], idx) => (
             <div
               key={idx}
-              className="bg-white dark:bg-gray-900 rounded-xl shadow-lg p-6 hover:shadow-xl transition"
+              className={
+                category === '__placeholder__'
+                  ? 'hidden lg:block lg:invisible bg-white dark:bg-gray-900 rounded-xl shadow-lg p-6'
+                  : 'bg-white dark:bg-gray-900 rounded-xl shadow-lg p-6 hover:shadow-xl transition'
+              }
             >
-              <h3 className="text-xl font-bold text-gray-800 dark:text-gray-100 mb-4">
-                {category}
-              </h3>
-              <ul className="space-y-2 text-gray-700 dark:text-gray-200">
-                {items.map((item, itemIdx) => (
-                  <li key={itemIdx} className="flex items-start">
-                    <span className="text-green-500 mr-2">●</span>
-                    {item}
-                  </li>
-                ))}
-              </ul>
+              {category !== '__placeholder__' && (
+                <>
+                  <h3 className="text-xl font-bold text-gray-800 dark:text-gray-100 mb-4">
+                    {category}
+                  </h3>
+                  <ul className="space-y-2 text-gray-700 dark:text-gray-200">
+                    {items.map((item, itemIdx) => (
+                      <li key={itemIdx} className="flex items-start">
+                        <span className="text-green-500 mr-2">●</span>
+                        {item}
+                      </li>
+                    ))}
+                  </ul>
+                </>
+              )}
             </div>
           ))}
         </div>

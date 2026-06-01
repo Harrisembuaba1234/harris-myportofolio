@@ -3,7 +3,7 @@ const projects = [
     id: 1,
     title: "Patient Queue App",
     images: [
-      "/assets/projects/eklinik.jpg",
+      "/assets/projects/GiriHusada.png",
     ],
     url: "https://github.com/username/attendance-app",
     description:
@@ -13,7 +13,7 @@ const projects = [
     id: 2,
     title: "Tomato Ripeness Detector",
     images: [
-      "/assets/projects/TomatAIAPP.png",
+      "/assets/projects/SitomaApp.png",
     ],
     url: "https://github.com/username/tomato-app",
     description:
@@ -23,7 +23,7 @@ const projects = [
     id: 3,
     title: "Time Tracking App",
     images: [
-      "/assets/projects/TrackerTimeApp.png",
+      "/assets/projects/TimeTrackApp.png",
     ],
     url: "https://github.com/username/tomato-app",
     description:
@@ -33,7 +33,7 @@ const projects = [
     id: 4,
     title: "Gift App",
     images: [
-      "/assets/projects/ecraft.jpg",
+      "/assets/projects/MilaniaCraft.png",
     ],
     url: "https://github.com/username/tomato-app",
     description:
@@ -43,7 +43,7 @@ const projects = [
     id: 5,
     title: "Apotek Online",
     images: [
-      "/assets/projects/ecraft.jpg",
+      "/assets/projects/ApotekOnline.png",
     ],
     url: "https://github.com/username/tomato-app",
     description:
@@ -53,11 +53,31 @@ const projects = [
     id: 6,
     title: "Aset Management",
     images: [
-      "/assets/projects/ecraft.jpg",
+      "/assets/projects/eRPT-Asset.png",
     ],
     url: "https://github.com/usernamee/tomato-app",
     description:
       "Sistem manajemen aset perusahaan untuk melacak penggunaan dan jadwal pemeliharaan guna mengoptimalkan pemanfaatan sumber daya. Dibangun menggunakan Laravel sebagai framework PHP untuk backend dan frontend, dengan Blade templating untuk antarmuka pengguna, dan SQL Server untuk database. Fitur termasuk inventaris aset, pelacakan lokasi dengan QR code scanning, jadwal maintenance otomatis, laporan depreciasi aset, dan integrasi dengan sistem akuntansi.",
+  },
+  {
+    id: 7,
+    title: "GreenSense",
+    images: [
+      "/assets/projects/GreenSense.png",
+    ],
+    url: "https://github.com/username/greensense-app",
+    description:
+      "Green Sense adalah aplikasi inovatif yang dirancang khusus untuk mengoptimalkan manajemen lingkungan dalam rumah kaca. Aplikasi ini mengintegrasikan teknologi sensor canggih dan perangkat lunak pintar untuk menyediakan solusi otomatisasi yang efisien bagi irigasi dan pencahayaan tanaman di lingkungan rumah kaca.",
+  },
+  {
+    id: 8,
+    title: "EyeCare AI",
+    images: [
+      "/assets/projects/EyeCare.png",
+    ],
+    url: "https://github.com/username/eyecare-ai",
+    description:
+      "EyeCare AI adalah website berbasis kecerdasan buatan (Artificial Intelligence) yang dirancang untuk mengklasifikasikan penyakit mata secara cepat dan akurat melalui analisis citra retina atau fundus. Website ini memanfaatkan model deep learning berbasis CNN (MobileNetV2) untuk mendeteksi berbagai kondisi mata seperti katarak, diabetic retinopathy, glaucoma, dan mata normal. Pengguna dapat mengunggah gambar mata melalui fitur upload, lalu sistem melakukan prediksi dan menampilkan hasil klasifikasi beserta tingkat kepercayaannya (confidence level). Dengan tampilan yang user-friendly dan proses yang efisien, EyeCare AI membantu meningkatkan kemudahan deteksi dini penyakit mata serta mendukung pemanfaatan teknologi AI dalam bidang kesehatan.",
   },
 ];
 

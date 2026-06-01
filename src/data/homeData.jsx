@@ -42,7 +42,7 @@ const homeData = {
   stats: [
     { label: "Experience",     value: "2+ Years",  icon: "bx bx-briefcase" },
     { label: "Main Language",  value: "Dart",      icon: "devicon-dart-plain" },
-    { label: "Total Projects", value: "6 Project", icon: "bx bx-code-alt" },
+    { label: "Total Projects", value: "9 Projects", icon: "bx bx-code-alt" },
     { label: "GPA",            value: "3.9 / 4.00", icon: "bx bx-award" },
   ],
 };
