@@ -154,6 +154,24 @@ const ProjectDetail = () => {
         detail: 'Hasil membantu pengguna memahami kondisi mata lebih awal.',
       },
     ],
+    9: [
+      {
+        title: 'Kelola aset',
+        detail: 'Pencatatan/pelabelan aset, perpindahan, maintenance, dan monitoring kondisi.',
+      },
+      {
+        title: 'Operasional catering',
+        detail: 'Perencanaan menu, inspeksi/sidak, tindak lanjut temuan, dan dashboard.',
+      },
+      {
+        title: 'Ticketing terintegrasi',
+        detail: 'Pengajuan tiket, approval berlapis, penugasan, dan pelacakan status.',
+      },
+      {
+        title: 'TSI ERP',
+        detail: 'Master data, transaksi stok/produksi, pembelian, barcode scanning, dan laporan.',
+      },
+    ],
   };
 
   const workflowSteps = workflowsById[project?.id] || [];

@@ -79,6 +79,16 @@ const projects = [
     description:
       "EyeCare AI adalah website berbasis kecerdasan buatan (Artificial Intelligence) yang dirancang untuk mengklasifikasikan penyakit mata secara cepat dan akurat melalui analisis citra retina atau fundus. Website ini memanfaatkan model deep learning berbasis CNN (MobileNetV2) untuk mendeteksi berbagai kondisi mata seperti katarak, diabetic retinopathy, glaucoma, dan mata normal. Pengguna dapat mengunggah gambar mata melalui fitur upload, lalu sistem melakukan prediksi dan menampilkan hasil klasifikasi beserta tingkat kepercayaannya (confidence level). Dengan tampilan yang user-friendly dan proses yang efisien, EyeCare AI membantu meningkatkan kemudahan deteksi dini penyakit mata serta mendukung pemanfaatan teknologi AI dalam bidang kesehatan.",
   },
+  {
+    id: 9,
+    title: "MSJ Project",
+    images: [
+      "/assets/projects/MSJProject.png",
+    ],
+    url: "https://github.com/username/msj-project",
+    description:
+      "MSJ Project adalah kumpulan project yang dikerjakan selama magang di PT Multi Spunindo Jaya, terdiri dari MSJ Asset, MSJ Catering, MSJ Ticketing, dan TSI ERP. MSJ Asset mendukung manajemen aset dan operasional perusahaan secara terintegrasi dengan fitur pencatatan/pelabelan aset, pengelolaan perpindahan aset, pemeliharaan, monitoring kondisi, serta laporan dashboard, aktivitas harian, penerimaan barang, dan defect. MSJ Catering mengelola operasional catering dari perencanaan menu, inspeksi/sidak, pencatatan temuan dan tindak lanjut, hingga pelaporan dan pemantauan status melalui dashboard untuk meningkatkan efisiensi dan kontrol kualitas. MSJ Ticketing menangani manajemen ticketing, permintaan barang, dan peminjaman aset dengan alur approval berlapis, transfer/penugasan tiket, pelacakan status, serta dashboard dan laporan periodik. TSI ERP mencakup manajemen master, transaksi persediaan/produksi, modul pembelian, dashboard operasional, barcode scanning untuk akurasi, dan laporan terstruktur yang dapat diekspor guna integrasi logistik, produksi, dan pengadaan.",
+  },
 ];
 
 export default projects;
