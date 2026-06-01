@@ -15,7 +15,7 @@ const aboutData = {
 
     resume: {
         label: "Download My Resume",
-        href: null,
+        href: "/assets/CV-Bagus-Haris-Suhartono.pdf",
         icon: "bx bx-download",
     },
 

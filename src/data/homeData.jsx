@@ -11,7 +11,7 @@ const homeData = {
   img: "/assets/IMG_1324.JPG",
   buttons: [
     { label: "Explore My Project", href: "#", type: "primary" },
-    { label: "Download My CV", href: "#", type: "secondary" },
+    { label: "Download My CV", href: "/assets/CV-Bagus-Haris-Suhartono.pdf", type: "secondary" },
   ],
 
   
