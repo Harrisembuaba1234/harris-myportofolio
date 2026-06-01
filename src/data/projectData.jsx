@@ -3,9 +3,7 @@ const projects = [
     id: 1,
     title: "Patient Queue App",
     images: [
-      "/assets/projects/ecraft.jpg",
       "/assets/projects/eklinik.jpg",
-      "/assets/projects/PosterB4 Green Sense.png",
     ],
     url: "https://github.com/username/attendance-app",
     description:
@@ -15,9 +13,7 @@ const projects = [
     id: 2,
     title: "Tomato Ripeness Detector",
     images: [
-      "/assets/projects/ecraft.jpg",
-      "/assets/projects/eklinik.jpg",
-      "/assets/projects/PosterB4 Green Sense.png",
+      "/assets/projects/TomatAIAPP.png",
     ],
     url: "https://github.com/username/tomato-app",
     description:
@@ -27,9 +23,7 @@ const projects = [
     id: 3,
     title: "Time Tracking App",
     images: [
-      "/assets/projects/ecraft.jpg",
-      "/assets/projects/eklinik.jpg",
-      "/assets/projects/PosterB4 Green Sense.png",
+      "/assets/projects/TrackerTimeApp.png",
     ],
     url: "https://github.com/username/tomato-app",
     description:
@@ -40,8 +34,6 @@ const projects = [
     title: "Gift App",
     images: [
       "/assets/projects/ecraft.jpg",
-      "/assets/projects/eklinik.jpg",
-      "/assets/projects/PosterB4 Green Sense.png",
     ],
     url: "https://github.com/username/tomato-app",
     description:
@@ -52,8 +44,6 @@ const projects = [
     title: "Apotek Online",
     images: [
       "/assets/projects/ecraft.jpg",
-      "/assets/projects/eklinik.jpg",
-      "/assets/projects/PosterB4 Green Sense.png",
     ],
     url: "https://github.com/username/tomato-app",
     description:
@@ -64,10 +54,8 @@ const projects = [
     title: "Aset Management",
     images: [
       "/assets/projects/ecraft.jpg",
-      "/assets/projects/eklinik.jpg",
-      "/assets/projects/PosterB4 Green Sense.png",
     ],
-    url: "https://github.com/username/tomato-app",
+    url: "https://github.com/usernamee/tomato-app",
     description:
       "Sistem manajemen aset perusahaan untuk melacak penggunaan dan jadwal pemeliharaan guna mengoptimalkan pemanfaatan sumber daya. Dibangun menggunakan Laravel sebagai framework PHP untuk backend dan frontend, dengan Blade templating untuk antarmuka pengguna, dan SQL Server untuk database. Fitur termasuk inventaris aset, pelacakan lokasi dengan QR code scanning, jadwal maintenance otomatis, laporan depreciasi aset, dan integrasi dengan sistem akuntansi.",
   },
